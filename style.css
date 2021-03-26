@@ -1,0 +1,141 @@
+div{
+    overflow-x: hidden;
+ }
+ /* .fixedwidth{
+     width: 1366px;
+     margin: auto;
+ } */
+ img{
+     max-width: 100%;
+ }
+ /* .continer{
+     width: 1100px;
+     margin: auto;
+ } */
+ .clearfixed::after{
+     content: "";
+     clear: both;
+     display: block;
+ }
+ .text-center{
+     text-align: center;
+ }
+ .text-right{
+     text-align: right;
+ }
+ .right{
+     float: right;
+ }
+ .left{
+     /*! float: left; */
+ }
+ /* main css style start */
+ 
+ .header-menu {
+     background: #0437d0;
+     padding: 26px 50px;
+ }
+ .header-img{
+     width: 40%;
+     float: left;
+ }
+ .header-img a{
+     text-decoration: none;
+     color: #fff;
+ }
+ .header-list{}
+ .header-list ul{
+     list-style: none;
+ }
+ .header-list ul li{
+     display: inline-block;
+ }
+ .header-list ul li a {text-decoration: none;padding: 10px 20px; display: inline-block; margin-left: -4px;
+     color: #fff;
+ 
+ }
+ 
+ .slider{
+     background-image: url(https://1.bp.blogspot.com/-eTaD7Gdgy8c/UrA6fTbCBiI/AAAAAAAACOE/SDiPTpBGH3c/s1600/doga-balon-wallpaper-1980x1200.jpg);
+ 
+     padding: 173px 0;
+     color: #222;
+     background-size: cover;
+ }
+ .slider h2{padding: 15px 0;}
+ .slider p{font-size: 25px;margin-bottom: 49px;}
+ .slider a{text-decoration: none;border: 1px solid #111;padding: 10px 24px;border-radius: 5px;font-weight: bold;color: #fff;
+ transition: .4s;}
+ .slider a:hover{
+     background: #000;
+     border-color: black;
+ }
+ 
+ /* service-section */
+ 
+
+.service-section{
+     border-bottom: 2px solid #0437d0;
+ }
+ .service-top{}
+ .service-top h2{
+     font-size: 30px;
+ }
+ .service-top p{
+     font-size: 19px;
+ }
+ .service-bootom{}
+ .service-item{width: 22%;float: left;margin-right: 4%;margin-top: 33px;box-sizing: border-box;}
+ .service-item:nth-child(4){
+     margin-right: 0;
+ }
+ .service-item span{color: #0437d0;font-size: 22px;}
+ .service-item h3{}
+ .service-item p{font-size: 18px;}
+ /* about-section */
+ .about-section{
+     padding: 30px 0;
+ }
+ .about-top{padding-bottom: 41px;}
+ .about-top h2{font-size: 30px;}
+ .about-top p{font-size: 20px;width: 60%;margin: auto;}
+ .about-bootom{}
+ .about-img {
+	width: 40%;
+	float: left;
+	margin-right: 0%;
+	margin-left: 3%;
+}
+.about-contant {
+	width: 36%;
+	margin: auto;
+}
+ .about-contant h2{margin: 0;}
+ .about-contant p{margin: 0;margin-top: 3px;margin-bottom: 17px;}
+ 
+ /* contact-section */
+ .contact-section{background: #ddd;}
+ .contact-top{}
+ .contact-top h1{}
+ .contact-top p{font-size: 20px;width: 70%;margin: auto;}
+ .contact-bottom{}
+ .icon-item{float: left;width: 30%;text-align: center;margin-right: 3%;margin-top: 30px;}
+ .icon-item span{color: blue;font-size: 20px;}
+ .icon-item p{font-size: 18px;}
+ 
+ /* footer-setion */
+ .footer{
+ }
+ .footer-top{
+     background: #0552f6;
+     padding: 21px 0;
+ }
+ .footer-top span{
+     padding: 0px 11px;
+     color: #fff;
+     font-size: 22px;
+ }
+ .footer-bottom{
+     background: #222222;
+     color: #ddd;
+ }
